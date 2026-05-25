@@ -42,11 +42,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/branding/ammit-wordmark.svg',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true
+      },
       navbar: {
         title: 'ammit',
         logo: {
           alt: 'ammit logo',
-          src: 'img/branding/ammit-wordmark.svg'
+          src: 'img/branding/ammit-wordmark-navbar-light.svg',
+          srcDark: 'img/branding/ammit-wordmark-navbar-dark.svg'
         },
         items: [
           {
@@ -93,6 +99,10 @@ const config = {
               {
                 label: 'Repository',
                 href: 'https://github.com/SNellerz/Ammit'
+              },
+              {
+                label: 'License',
+                href: 'https://github.com/SNellerz/Ammit/blob/main/LICENSE'
               }
             ]
           }

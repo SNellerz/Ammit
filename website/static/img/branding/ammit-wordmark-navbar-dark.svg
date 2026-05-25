@@ -1,0 +1,12 @@
+<svg viewBox="0 0 452 88" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ammitTitleDark ammitDescDark">
+  <title id="ammitTitleDark">ammit wordmark</title>
+  <desc id="ammitDescDark">Ammit logo with glyph and wordmark for dark backgrounds.</desc>
+  <g transform="translate(8 8)">
+    <polygon points="0,4 24,12 33,36 28,56 14,68 0,72 -14,68 -28,56 -33,36 -24,12" fill="#1c1813" stroke="#d2a540" stroke-width="2"/>
+    <polygon points="0,4 10,10 6,24 0,27 -6,24 -10,10" fill="#d2a540"/>
+    <circle cx="-14" cy="30" r="3.6" fill="#d2a540"/>
+    <circle cx="14" cy="30" r="3.6" fill="#d2a540"/>
+    <polygon points="0,41 7,49 0,62 -7,49" fill="#d2a540"/>
+  </g>
+  <text x="60" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="40" font-weight="700" letter-spacing="1.5" fill="#f5e7c5">ammit</text>
+</svg>

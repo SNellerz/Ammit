@@ -6,25 +6,51 @@ slug: /
 
 # ammit
 
-**Weigh every container. Devour the unworthy.**
+> Weigh every container. Devour the unworthy.
 
-ammit is a lightweight Docker diagnostics and security CLI that helps you inspect container runtime state, network posture, resource pressure, and security risk.
+ammit is a focused Docker diagnostics and security CLI for operators who need fast signal without noisy dashboards.
 
-## Core value
+<div className="home-panels">
+	<a className="home-panel" href="./quickstart">
+		<h3>Quickstart</h3>
+		<p>Build, run, and inspect your first target in minutes.</p>
+	</a>
+	<a className="home-panel" href="./commands">
+		<h3>Command Reference</h3>
+		<p>Full command list with flags and execution patterns.</p>
+	</a>
+	<a className="home-panel" href="./security">
+		<h3>Security Model</h3>
+		<p>Understand verdicts, checks, and hardening priorities.</p>
+	</a>
+	<a className="home-panel" href="./json-automation">
+		<h3>Automation</h3>
+		<p>Consume typed JSON output in CI, bots, and pipelines.</p>
+	</a>
+</div>
 
-- One binary, no third-party Go dependencies.
-- Fast operator workflows for inspection, triage, and hardening.
-- Security verdicts plus optional image CVE scanning.
-- Automation-ready JSON envelope with typed command payloads.
+## Why teams use ammit
+
+- Single static binary with zero third-party Go dependencies.
+- Runtime-first diagnostics: config, networking, resources, and risk.
+- Security verdicts with optional CVE scan path.
+- Streaming and JSON output modes for operators and automation.
+
+## Core flow
+
+```sh
+ammit ls
+ammit all my-target-container
+```
 
 ## Key commands
 
-- `ammit ls`
-- `ammit config <target>`
-- `ammit net <target>`
-- `ammit stats <target>`
-- `ammit recommend <target>`
-- `ammit scan <target>`
-- `ammit all <target>`
+| Command | Outcome |
+| --- | --- |
+| `ammit config <target>` | Runtime configuration, privileges, limits, mounts |
+| `ammit net <target>` | Network mode, interfaces, ports, counters |
+| `ammit stats <target>` | CPU, memory, block I/O, network usage |
+| `ammit recommend <target>` | Actionable tuning and hardening suggestions |
+| `ammit scan <target>` | Security checks with optional image CVE scan |
 
-Continue to [Quickstart](quickstart) for setup and first run.
+Continue to [Quickstart](quickstart) to get running.

@@ -236,3 +236,7 @@ Core palette:
 - containerd and CRI backend support.
 - Structured JSON schemas published under a versioned docs path.
 - Optional output profiles for human, compact, and CI-focused rendering.
+
+## License
+
+Distributed under the Apache License 2.0. See [LICENSE](LICENSE).
