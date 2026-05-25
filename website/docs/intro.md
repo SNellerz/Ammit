@@ -4,6 +4,8 @@ title: ammit Overview
 slug: /
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # ammit
 
 > Weigh every container. Devour the unworthy.
@@ -12,7 +14,7 @@ ammit is a focused Docker diagnostics and security CLI for operators who need fa
 
 <div className="brand-lockup-wrap">
 	<img
-		src="/img/branding/ammit-wordmark.svg"
+		src={useBaseUrl('/img/branding/ammit-wordmark.svg')}
 		alt="ammit wordmark lockup"
 		className="brand-lockup"
 	/>

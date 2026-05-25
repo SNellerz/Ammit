@@ -48,7 +48,7 @@ const config = {
         respectPrefersColorScheme: true
       },
       navbar: {
-        title: '',
+        title: 'ammit',
         logo: {
           alt: 'ammit logo',
           src: 'img/branding/ammit-mark-navbar-light.svg',
