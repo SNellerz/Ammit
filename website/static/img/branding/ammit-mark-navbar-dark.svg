@@ -1,0 +1,9 @@
+<svg viewBox="-38 0 76 76" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ammitMarkTitleDark ammitMarkDescDark">
+  <title id="ammitMarkTitleDark">ammit mark</title>
+  <desc id="ammitMarkDescDark">Ammit glyph optimized for dark theme navbar.</desc>
+  <polygon points="0,4 24,12 33,36 28,56 14,68 0,72 -14,68 -28,56 -33,36 -24,12" fill="#1c1813" stroke="#d2a540" stroke-width="2"/>
+  <polygon points="0,4 10,10 6,24 0,27 -6,24 -10,10" fill="#d2a540"/>
+  <circle cx="-14" cy="30" r="3.6" fill="#d2a540"/>
+  <circle cx="14" cy="30" r="3.6" fill="#d2a540"/>
+  <polygon points="0,41 7,49 0,62 -7,49" fill="#d2a540"/>
+</svg>

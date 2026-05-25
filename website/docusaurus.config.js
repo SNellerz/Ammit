@@ -51,8 +51,8 @@ const config = {
         title: 'ammit',
         logo: {
           alt: 'ammit logo',
-          src: 'img/branding/ammit-wordmark-navbar-light.svg',
-          srcDark: 'img/branding/ammit-wordmark-navbar-dark.svg'
+          src: 'img/branding/ammit-mark-navbar-light.svg',
+          srcDark: 'img/branding/ammit-mark-navbar-dark.svg'
         },
         items: [
           {

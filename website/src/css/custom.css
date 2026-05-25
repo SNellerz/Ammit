@@ -82,7 +82,8 @@ body {
 }
 
 .navbar__logo img {
-  height: clamp(1.75rem, 2.8vw, 2.2rem);
+  display: block;
+  height: 2rem;
   width: auto;
   filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.12));
 }
@@ -193,7 +194,6 @@ body {
   }
 
   .navbar__logo img {
-    height: 1.6rem;
-    max-width: min(58vw, 230px);
+    height: 1.75rem;
   }
 }
