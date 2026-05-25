@@ -1,0 +1,37 @@
+:root {
+  --ifm-color-primary: #c8972e;
+  --ifm-color-primary-dark: #b98729;
+  --ifm-color-primary-darker: #ad7f27;
+  --ifm-color-primary-darkest: #8f6920;
+  --ifm-color-primary-light: #d4a53a;
+  --ifm-color-primary-lighter: #dbb04f;
+  --ifm-color-primary-lightest: #e4c072;
+  --ifm-background-color: #14110e;
+  --ifm-background-surface-color: #1c1813;
+  --ifm-font-color-base: #e9dcc0;
+  --ifm-navbar-background-color: #14110e;
+  --ifm-footer-background-color: #14110e;
+  --ifm-code-font-size: 95%;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #14110e;
+  --ifm-background-surface-color: #1c1813;
+  --ifm-font-color-base: #e9dcc0;
+}
+
+.navbar__title {
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+}
+
+.hero {
+  background: radial-gradient(circle at top left, #2a2219 0%, #14110e 60%);
+  border-bottom: 1px solid rgba(200, 151, 46, 0.35);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  letter-spacing: 0.02em;
+}
