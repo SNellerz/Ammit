@@ -220,7 +220,48 @@ body {
 }
 
 .footer {
+  background:
+    radial-gradient(900px 380px at 6% 0%, rgba(183, 153, 94, 0.14), transparent 74%),
+    radial-gradient(800px 340px at 94% 0%, rgba(120, 78, 58, 0.12), transparent 78%),
+    linear-gradient(180deg, color-mix(in oklab, var(--ifm-footer-background-color) 86%, black) 0%, var(--ifm-footer-background-color) 100%);
   border-top: 1px solid var(--site-card-border);
+  position: relative;
+}
+
+.footer::before {
+  background: linear-gradient(90deg, transparent 0%, var(--ifm-color-primary) 18%, transparent 50%, var(--ifm-color-primary) 82%, transparent 100%);
+  content: '';
+  height: 1px;
+  left: 6%;
+  opacity: 0.35;
+  position: absolute;
+  right: 6%;
+  top: 0;
+}
+
+.footer__title {
+  color: var(--ifm-heading-color);
+  letter-spacing: 0.02em;
+}
+
+.footer__item {
+  margin-bottom: 0.35rem;
+}
+
+.footer__link-item {
+  color: var(--ifm-font-color-secondary);
+  text-decoration: none;
+  transition: color 160ms ease, text-shadow 160ms ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-link-hover-color);
+  text-shadow: 0 0 18px color-mix(in oklab, var(--ifm-link-hover-color) 32%, transparent);
+}
+
+.footer__copyright {
+  color: var(--ifm-font-color-secondary);
+  opacity: 0.9;
 }
 
 @media (max-width: 996px) {
