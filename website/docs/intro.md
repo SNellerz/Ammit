@@ -10,6 +10,14 @@ slug: /
 
 ammit is a focused Docker diagnostics and security CLI for operators who need fast signal without noisy dashboards.
 
+<div className="brand-lockup-wrap">
+	<img
+		src="/img/branding/ammit-wordmark.svg"
+		alt="ammit wordmark lockup"
+		className="brand-lockup"
+	/>
+</div>
+
 <div className="home-panels">
 	<a className="home-panel" href="./quickstart">
 		<h3>Quickstart</h3>

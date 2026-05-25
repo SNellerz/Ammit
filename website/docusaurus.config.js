@@ -2,7 +2,7 @@
 const config = {
   title: 'ammit',
   tagline: 'Weigh every container. Devour the unworthy.',
-  favicon: 'img/branding/ammit-wordmark.svg',
+  favicon: 'img/branding/ammit-mark-favicon.svg',
 
   url: 'https://snellerz.github.io',
   baseUrl: '/Ammit/',

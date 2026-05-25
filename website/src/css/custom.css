@@ -1,66 +1,66 @@
 :root {
-  --ifm-color-primary: #9a6d10;
-  --ifm-color-primary-dark: #8a610e;
-  --ifm-color-primary-darker: #825b0d;
-  --ifm-color-primary-darkest: #6b4b0b;
-  --ifm-color-primary-light: #aa7912;
-  --ifm-color-primary-lighter: #b88013;
-  --ifm-color-primary-lightest: #ca9424;
+  --ifm-color-primary: #87662f;
+  --ifm-color-primary-dark: #795b2a;
+  --ifm-color-primary-darker: #715428;
+  --ifm-color-primary-darkest: #5d4621;
+  --ifm-color-primary-light: #947038;
+  --ifm-color-primary-lighter: #a07b42;
+  --ifm-color-primary-lightest: #b08e59;
 
-  --ifm-background-color: #fbf6eb;
-  --ifm-background-surface-color: #f3ead8;
-  --ifm-navbar-background-color: rgba(251, 246, 235, 0.8);
-  --ifm-footer-background-color: #17120d;
-  --ifm-font-color-base: #2a2116;
-  --ifm-font-color-secondary: #5d4c34;
-  --ifm-heading-color: #1b150d;
-  --ifm-link-color: #8a610e;
-  --ifm-link-hover-color: #6b4b0b;
+  --ifm-background-color: #f6f1e6;
+  --ifm-background-surface-color: #eee6d7;
+  --ifm-navbar-background-color: rgba(246, 241, 230, 0.78);
+  --ifm-footer-background-color: #14110d;
+  --ifm-font-color-base: #292218;
+  --ifm-font-color-secondary: #605542;
+  --ifm-heading-color: #1f1911;
+  --ifm-link-color: #7a602f;
+  --ifm-link-hover-color: #604b25;
   --ifm-code-font-size: 94%;
 
-  --ifm-toc-border-color: rgba(154, 109, 16, 0.2);
-  --ifm-table-stripe-background: rgba(154, 109, 16, 0.05);
-  --ifm-pre-background: #1e1913;
-  --ifm-pre-color: #f2e8cf;
+  --ifm-toc-border-color: rgba(135, 102, 47, 0.16);
+  --ifm-table-stripe-background: rgba(135, 102, 47, 0.045);
+  --ifm-pre-background: #1b1712;
+  --ifm-pre-color: #efe2c8;
 
-  --site-ring: rgba(154, 109, 16, 0.35);
-  --site-card-border: rgba(154, 109, 16, 0.18);
-  --site-panel-bg: rgba(251, 246, 235, 0.62);
-  --site-pattern: radial-gradient(1100px 560px at -12% 14%, rgba(200, 151, 46, 0.17), transparent 66%),
-    radial-gradient(980px 500px at 102% 12%, rgba(163, 45, 45, 0.1), transparent 62%),
-    linear-gradient(115deg, rgba(194, 142, 34, 0.12) 0%, rgba(194, 142, 34, 0.04) 35%, rgba(75, 38, 16, 0) 62%, rgba(151, 49, 42, 0.09) 100%);
+  --site-ring: rgba(135, 102, 47, 0.3);
+  --site-card-border: rgba(135, 102, 47, 0.17);
+  --site-panel-bg: rgba(246, 241, 230, 0.54);
+  --site-pattern: radial-gradient(1300px 760px at -16% 8%, rgba(184, 145, 74, 0.13), transparent 72%),
+    radial-gradient(1100px 680px at 110% 12%, rgba(111, 78, 45, 0.09), transparent 74%),
+    linear-gradient(120deg, rgba(173, 144, 96, 0.08) 0%, rgba(173, 144, 96, 0.03) 34%, rgba(46, 38, 28, 0) 62%, rgba(120, 77, 64, 0.045) 100%);
 }
 
 html[data-theme='dark'] {
-  --ifm-color-primary: #d2a540;
-  --ifm-color-primary-dark: #cb9830;
-  --ifm-color-primary-darker: #c18f2c;
-  --ifm-color-primary-darkest: #9f7524;
-  --ifm-color-primary-light: #d8ae52;
-  --ifm-color-primary-lighter: #deb866;
-  --ifm-color-primary-lightest: #e8cb8f;
+  --ifm-color-primary: #b7995e;
+  --ifm-color-primary-dark: #ac8e58;
+  --ifm-color-primary-darker: #a28753;
+  --ifm-color-primary-darkest: #866f44;
+  --ifm-color-primary-light: #c1a469;
+  --ifm-color-primary-lighter: #c8af77;
+  --ifm-color-primary-lightest: #d6c299;
 
-  --ifm-background-color: #14110e;
-  --ifm-background-surface-color: #1c1813;
-  --ifm-navbar-background-color: rgba(20, 17, 14, 0.84);
-  --ifm-footer-background-color: #0f0c09;
-  --ifm-font-color-base: #e9dcc0;
-  --ifm-font-color-secondary: #c8b893;
-  --ifm-heading-color: #f6ebd2;
-  --ifm-link-color: #deb866;
-  --ifm-link-hover-color: #f0d79d;
+  --ifm-background-color: #12100d;
+  --ifm-background-surface-color: #191611;
+  --ifm-navbar-background-color: rgba(18, 16, 13, 0.82);
+  --ifm-footer-background-color: #0d0b09;
+  --ifm-font-color-base: #e4d8c1;
+  --ifm-font-color-secondary: #c4b79c;
+  --ifm-heading-color: #f0e6d1;
+  --ifm-link-color: #ccb17c;
+  --ifm-link-hover-color: #ddc89e;
 
-  --ifm-toc-border-color: rgba(210, 165, 64, 0.24);
-  --ifm-table-stripe-background: rgba(210, 165, 64, 0.08);
-  --ifm-pre-background: #110e0b;
-  --ifm-pre-color: #f4e8cd;
+  --ifm-toc-border-color: rgba(183, 153, 94, 0.2);
+  --ifm-table-stripe-background: rgba(183, 153, 94, 0.07);
+  --ifm-pre-background: #100d0a;
+  --ifm-pre-color: #f0e4cc;
 
-  --site-ring: rgba(210, 165, 64, 0.38);
-  --site-card-border: rgba(210, 165, 64, 0.2);
-  --site-panel-bg: rgba(20, 17, 14, 0.52);
-  --site-pattern: radial-gradient(1200px 620px at -14% 12%, rgba(200, 151, 46, 0.24), transparent 68%),
-    radial-gradient(1020px 620px at 104% 16%, rgba(163, 45, 45, 0.16), transparent 64%),
-    linear-gradient(120deg, rgba(210, 165, 64, 0.14) 0%, rgba(210, 165, 64, 0.03) 37%, rgba(20, 17, 14, 0) 62%, rgba(163, 45, 45, 0.12) 100%);
+  --site-ring: rgba(183, 153, 94, 0.33);
+  --site-card-border: rgba(183, 153, 94, 0.18);
+  --site-panel-bg: rgba(18, 16, 13, 0.5);
+  --site-pattern: radial-gradient(1400px 780px at -20% 10%, rgba(186, 152, 82, 0.17), transparent 74%),
+    radial-gradient(1200px 760px at 112% 16%, rgba(122, 80, 58, 0.1), transparent 76%),
+    linear-gradient(124deg, rgba(170, 142, 89, 0.08) 0%, rgba(170, 142, 89, 0.025) 38%, rgba(18, 16, 13, 0) 63%, rgba(120, 78, 58, 0.06) 100%);
 }
 
 html,
@@ -167,6 +167,20 @@ body {
   margin: 1.2rem 0 1.6rem;
 }
 
+.brand-lockup-wrap {
+  border: 1px solid var(--site-card-border);
+  border-radius: 14px;
+  margin: 1rem 0 1.35rem;
+  overflow: hidden;
+}
+
+.brand-lockup {
+  display: block;
+  height: auto;
+  max-width: 760px;
+  width: 100%;
+}
+
 .home-panel {
   background: color-mix(in oklab, var(--ifm-background-surface-color) 80%, transparent);
   border: 1px solid var(--site-card-border);
@@ -211,5 +225,10 @@ body {
   .theme-doc-sidebar-container,
   .table-of-contents {
     backdrop-filter: none;
+  }
+
+  .brand-lockup-wrap {
+    border-radius: 10px;
+    margin-top: 0.8rem;
   }
 }
