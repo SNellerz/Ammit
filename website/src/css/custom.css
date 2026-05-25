@@ -25,8 +25,10 @@
 
   --site-ring: rgba(154, 109, 16, 0.35);
   --site-card-border: rgba(154, 109, 16, 0.18);
-  --site-pattern: radial-gradient(circle at 10% -10%, rgba(200, 151, 46, 0.15), transparent 40%),
-    radial-gradient(circle at 90% 0%, rgba(163, 45, 45, 0.08), transparent 36%);
+  --site-panel-bg: rgba(251, 246, 235, 0.62);
+  --site-pattern: radial-gradient(1100px 560px at -12% 14%, rgba(200, 151, 46, 0.17), transparent 66%),
+    radial-gradient(980px 500px at 102% 12%, rgba(163, 45, 45, 0.1), transparent 62%),
+    linear-gradient(115deg, rgba(194, 142, 34, 0.12) 0%, rgba(194, 142, 34, 0.04) 35%, rgba(75, 38, 16, 0) 62%, rgba(151, 49, 42, 0.09) 100%);
 }
 
 html[data-theme='dark'] {
@@ -55,37 +57,49 @@ html[data-theme='dark'] {
 
   --site-ring: rgba(210, 165, 64, 0.38);
   --site-card-border: rgba(210, 165, 64, 0.2);
-  --site-pattern: radial-gradient(circle at 8% -12%, rgba(200, 151, 46, 0.2), transparent 44%),
-    radial-gradient(circle at 88% -4%, rgba(163, 45, 45, 0.16), transparent 40%);
+  --site-panel-bg: rgba(20, 17, 14, 0.52);
+  --site-pattern: radial-gradient(1200px 620px at -14% 12%, rgba(200, 151, 46, 0.24), transparent 68%),
+    radial-gradient(1020px 620px at 104% 16%, rgba(163, 45, 45, 0.16), transparent 64%),
+    linear-gradient(120deg, rgba(210, 165, 64, 0.14) 0%, rgba(210, 165, 64, 0.03) 37%, rgba(20, 17, 14, 0) 62%, rgba(163, 45, 45, 0.12) 100%);
 }
 
 html,
 body {
   background-image: var(--site-pattern);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px) saturate(1.05);
   border-bottom: 1px solid var(--site-card-border);
 }
 
-.navbar__title {
-  letter-spacing: 0.08em;
-  font-weight: 700;
-  text-transform: lowercase;
+.navbar__brand {
+  gap: 0.45rem;
 }
 
 .navbar__logo {
   height: auto;
-  margin-right: 0.65rem;
+  margin-right: 0.25rem;
 }
 
 .navbar__logo img {
   display: block;
-  height: 2rem;
-  width: auto;
+  height: 2.15rem;
+  width: 2.15rem;
   filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.12));
+}
+
+.theme-doc-sidebar-container,
+.table-of-contents {
+  background: var(--site-panel-bg);
+  backdrop-filter: blur(4px);
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--site-card-border);
 }
 
 .theme-doc-markdown h1,
@@ -189,11 +203,13 @@ body {
 }
 
 @media (max-width: 996px) {
-  .navbar__title {
-    display: none;
+  .navbar__logo img {
+    height: 1.85rem;
+    width: 1.85rem;
   }
 
-  .navbar__logo img {
-    height: 1.75rem;
+  .theme-doc-sidebar-container,
+  .table-of-contents {
+    backdrop-filter: none;
   }
 }
